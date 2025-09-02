@@ -3,6 +3,11 @@
 import { useState, useEffect, type FormEvent } from 'react'
 import SendIcon from '@mui/icons-material/Send'
 
+type ContactApiError = {
+  error?: string
+  issues?: { message?: string }[]
+}
+
 export default function ContactForm() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
@@ -31,11 +36,12 @@ export default function ContactForm() {
         body: JSON.stringify({ name, email, message }),
         headers: { 'Content-Type': 'application/json' },
       })
-      const body = await res.json().catch(() => null)
+      const body: ContactApiError | null = await res.json().catch(() => null)
       if (!res.ok) {
-        const details = Array.isArray(body?.issues)
-          ? body.issues.map((i: any) => i?.message).filter(Boolean).join(', ')
-          : undefined
+        const details = (body?.issues ?? [])
+          .map((i) => i?.message)
+          .filter(Boolean)
+          .join(', ') || undefined
         const message = body?.error
           ? `${body.error}${details ? `: ${details}` : ''}`
           : `Request failed (${res.status})`
@@ -48,7 +54,7 @@ export default function ContactForm() {
       setEmail('')
       setMessage('')
       
-    } catch (e) {
+    } catch {
       setStatus('error')
     }
   }

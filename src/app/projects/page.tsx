@@ -1,6 +1,4 @@
 import ProjectCard from '@/components/ProjectCard'
-import FilterListIcon from '@mui/icons-material/FilterList'
-import SearchIcon from '@mui/icons-material/Search'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
