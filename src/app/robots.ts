@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const base = 'https://your-domain.com'
+  const base = 'https://timi-techportfolio.vercel.app'
   return {
     rules: {
       userAgent: '*',

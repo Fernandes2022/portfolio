@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Timi-tech | Portfolio',
     description: 'Modern portfolio showcasing projects, experience, and contact.',
-    url: 'https://your-domain.com',
+    url: 'https://timi-techportfolio.vercel.app',
     siteName: 'Developer Portfolio',
     images: [{ url: '/restaurant.PNG', width: 1200, height: 630, alt: 'Portfolio' }],
     locale: 'en_US',
     type: 'website',
   },
-  metadataBase: new URL('https://your-domain.com'),
+  metadataBase: new URL('https://timi-techportfolio.vercel.app'),
 }
 
 export default function RootLayout({
