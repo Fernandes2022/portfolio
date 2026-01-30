@@ -15,9 +15,51 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
+    role: 'DevOps / Infrastructure Engineer',
+    company: 'Australia based tech company — Remote',
+    period: 'January 2026',
+    points: [
+      'Cloud DevOps / Infrastructure on Hetzner (Ubuntu VPS, Node, Postgres, PM2)',
+      'Deployed and operated a two-service Node/TypeScript system on Hetzner Cloud (VPS)',
+      'Production‑ready deployment and hardening of a two‑service Node + Postgres system on a VPS (PM2, Postgres, health/readiness/metrics, DLQ, env validation).',
+    ],
+  },
+  {
+    role: 'Backend Engineer',
+    company: 'Australia based tech company — Remote',
+    period: 'January 2026',
+    points: [
+      'I built Orbit, a reliability‑focused backend framework that coordinates complex, multi‑phase workflows with checkpointing, idempotency, and safe rollback behavior. The system includes DLQ‑based dispatch handling, schema‑validated configuration, telemetry and audit ledgers, health/metrics endpoints, and Prisma‑backed migrations to support production deployments.',
+    ],
+  },
+  {
+    role: 'Backend Engineer',
+    company: 'Australia based tech company — Remote',
+    period: 'December 2025',
+    points: [
+      'Built a Node.js/TypeScript microservice that orchestrates multi-day customer engagement campaigns across email and voice, with JWT-secured APIs, BullMQ/Redis background jobs, and OpenAI-powered message personalization and response analysis.',
+    ],
+  },
+  {
+    role: 'Backend/Automation Engineer',
+    company: 'Australia based tech company — Remote',
+    period: 'November 2025',
+    points: [
+      'Built and productionized a secure Node.js/n8n backend, including Docker/PM2 setup, deep health checks with Redis, robust job queues with DLQs, strict CORS and secret validation, MongoDB indexes/migrations, and PII‑safe logging with strong idempotency and test coverage.',
+    ],
+  },
+  {
+    role: 'Full-Stack Engineer',
+    company: 'Australia based tech company — Remote',
+    period: 'October 2025',
+    points: [
+      'Developed a production-ready SaaS content distribution platform: Next.js + TS frontend (dashboards, auth, billing, uploads UI) integrated with an Express/Prisma/BullMQ backend for queued uploads, real-time job tracking over WebSockets, and Stripe-based subscription plans (Free/Pro/Agency) with enforced quotas.',
+    ],
+  },
+  {
     role: 'Full-Stack Engineer',
     company: 'ByteForge Technologies — Remote',
-    period: 'June 2024 – Present',
+    period: 'June 2024 - December 2025',
     points: [
       'Developed scalable full-stack applications with React, Node.js, and PostgreSQL for fintech solutions.',
       'Integrated secure authentication systems and implemented role-based access control.',

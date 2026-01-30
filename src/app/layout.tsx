@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: 'Modern portfolio showcasing projects, experience, and contact.',
     url: 'https://timi-techportfolio.vercel.app',
     siteName: 'Developer Portfolio',
-    images: [{ url: '/restaurant.PNG', width: 1200, height: 630, alt: 'Portfolio' }],
+    images: [{ url: '/portfolio.PNG', width: 1200, height: 630, alt: 'Portfolio' }],
     locale: 'en_US',
     type: 'website',
   },

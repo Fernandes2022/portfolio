@@ -8,8 +8,40 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+    title: 'SAAS Customer Portal',
+    description: 'Developed a production-ready SaaS content distribution platform.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind', 'aos', 'axios', 'Nodemailer', 'mui-material & icons', 'Node.js', 'Express', 'JWT', 'PostgreSQL', 'Stripe', 'Docker', 'Hetzner', 'CI/CD'],
+    image: '/saas.PNG',
+    github: 'https://github.com/Fernandes2022/saas-customer-portal',
+    demo: 'https://saas-customer-portal-frontend.vercel.app',
+  },
+  {
+    title: 'n8n-Backend-Shield',
+    description: 'Built and productionized a secure Node.js/n8n backend',
+    tech: ['Node.js', 'Express', 'n8n', 'Docker', 'PM2 setup', 'Redis', 'DLQs', 'MongoDB'],
+    image: 'https://images.unsplash.com/photo-1503252947848-7338d3f92f31?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM3fHx8ZW58MHx8fHx8&ixlib=rb-4.1.0&q=60&w=3000',
+    github: 'https://github.com/Fernandes2022/dev-c-node',
+    demo: 'https://github.com/Fernandes2022/dev-c-node',
+  },
+  {
+    title: 'Orbit Framework',
+    description: 'I built Orbit, a reliability‑focused backend framework that coordinates complex, multi‑phase workflows with checkpointing, idempotency, and safe rollback behavior.',
+    tech: ['Node.js', 'Express', 'Typescript', 'Docker', 'DLQs'],
+    image: 'https://images.unsplash.com/photo-1666930398504-e747d9155071?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    github: 'https://github.com/Fernandes2022/Orbit-framework',
+    demo: 'https://github.com/Fernandes2022/Orbit-framework',
+  },
+  {
+    title: 'Chrissie Service',
+    description: 'Built a Node.js/TypeScript microservice that orchestrates multi-day customer engagement campaigns across email and voice',
+    tech: ['Node.js', 'Express', 'TypeScript', 'Docker', 'BullMQ', 'Redis', 'DLQs', 'JWT', 'OPENAI', 'Twillio', 'Zod', 'MongoDB'],
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    github: 'https://github.com/Fernandes2022/Chrissie-service',
+    demo: 'https://github.com/Fernandes2022/Chrissie-service',
+  },
+  {
     title: 'Restaurant App',
-    description: 'The biggest project I built. A full functional modern restaurant ordering app with admin panel.',
+    description: 'A full functional modern restaurant ordering app with admin panel.',
     tech: ['React', 'Tailwind', 'React-router', 'framer-motion', 'axios', 'emailjs', 'mui-material & icons', 'Node.js', 'Express', 'JWT', 'MongoDB'],
     image: '/restaurant.PNG',
     github: 'https://github.com/Fernandes2022/restaurant-ui',

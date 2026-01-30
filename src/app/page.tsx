@@ -22,23 +22,28 @@ export default function Home() {
     { title: 'Frontend Craft', text: 'Next.js 14, React 18, Tailwind, Framer Motion', icon: <CodeIcon /> },
     { title: 'Backend APIs', text: 'Node.js, Express, REST & GraphQL', icon: <DnsIcon /> },
     { title: 'Databases', text: 'PostgreSQL, MySQL, MongoDB, SQLite', icon: <StorageIcon /> },
-    { title: 'Cloud & DevOps', text: 'Vercel, Docker, CI/CD', icon: <CloudIcon /> },
+    { title: 'Cloud & DevOps', text: 'Vercel, Netlify, Render, Docker, Linux, Hetzner, AWS, CI/CD', icon: <CloudIcon /> },
     { title: 'Performance', text: 'Lighthouse 95+, Web Vitals, caching', icon: <SpeedIcon /> },
     { title: 'Security', text: 'Auth, validation, OWASP best practices', icon: <SecurityIcon /> },
   ]
 
   const techStack = [
+    'JavaScript',
     'TypeScript',
     'Next.js',
     'React',
     'Node.js',
     'PostgreSQL',
+    'MySQL',
     'MongoDB',
     'Tailwind CSS',
     'Framer Motion',
     'JWT',
     'Docker',
-    'Vercel',
+    'VPS',
+    'Linux',
+    'Hetzner',
+    'AWS',
   ]
 
   const projects = [
