@@ -103,7 +103,7 @@ export default function ProjectsPage() {
         <h1 className="text-3xl sm:text-4xl font-extrabold text-center">
           <span className="bg-gradient-to-r from-violet-600 via-fuchsia-600 to-rose-600 bg-clip-text text-transparent">Projects</span>
         </h1>
-        <p className="text-foreground/70 max-w-2xl">
+        <p className="text-foreground/70 max-w-2xl text-center mx-auto">
           A selection of various types of projects demonstrating product thinking, code quality, and velocity.
         </p>
         
