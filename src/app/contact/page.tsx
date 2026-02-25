@@ -23,11 +23,11 @@ export default function ContactPage() {
         <div className="pointer-events-none absolute -bottom-10 left-0 h-96 w-96 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 opacity-25 blur-3xl" />
       </div>
 
-      <header className="space-y-3 text-center sm:text-left max-w-3xl pt-4">
-        <h1 className="text-3xl sm:text-4xl font-extrabold">
-          <span className="bg-gradient-to-r from-violet-600 via-fuchsia-600 to-rose-600 bg-clip-text text-transparent">Let’s talk</span>
+      <header className="space-y-3 text-center sm:text-left max-w-3xl pt-4 mx-auto">
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-center">
+          <span className="bg-gradient-to-r from-violet-600 via-fuchsia-600 to-rose-600 bg-clip-text text-transparent ">Let’s talk</span>
         </h1>
-        <p className="text-foreground/70 dark:text-white">
+        <p className="text-foreground/70 dark:text-white text-center mx-auto">
           Have a project or an opportunity? Send a message — I usually respond within an hour.
         </p>
       </header>

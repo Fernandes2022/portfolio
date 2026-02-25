@@ -74,7 +74,7 @@ export default function AboutPage() {
       </div>
 
       {/* Hero */}
-      <header className="space-y-4 max-w-3xl pt-3 text-center">
+      <header className="space-y-4 max-w-3xl pt-3 text-center mx-auto">
         <div className="p-2 inline-flex items-center gap-2 rounded-full border border-foreground/10 bg-background/60 text-xs shadow-sm backdrop-blur supports-[backdrop-filter]:bg-background/40 text-center ">
           <RocketLaunchIcon className="text-fuchsia-500" fontSize="inherit" />
           <span className="tracking-wide ">About me</span>

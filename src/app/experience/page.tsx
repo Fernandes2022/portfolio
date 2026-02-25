@@ -15,6 +15,20 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
+    role: "DevOps / Full-Stack Infrastructure Engineer",
+    company: "Australia based tech company — Remote",
+    period: "February 2026",
+    points: [
+      "Architected and deployed a production monorepo merging 5 independent repositories (Next.js frontend, Express/TypeScript API, AI service, worker service, social automation) into a single Docker Compose orchestration with 8 containerized services.",
+      "Configured Hetzner Cloud VPS (Ubuntu 22.04) with full security hardening: SSH key-only auth, UFW firewall, Fail2Ban, kernel-level SYN flood protection, non-root Docker containers, unattended security updates, and HSTS/TLS 1.2+ enforcement.",
+      "Built multi-stage Dockerfiles for each service, resolving complex build issues including pnpm symlink handling for Prisma client generation, native module compilation (sharp on Alpine), and cross-stage artifact management.",
+      "Deployed Nginx reverse proxy with SSL termination (Let's Encrypt/Certbot auto-renewal), rate limiting (per-endpoint zones for auth, API, and general traffic), security headers, and WebSocket upgrade support.",
+      "Configured PostgreSQL and Redis within internal Docker networking (no external exposure), with automated daily database backups, 30-day retention, and cron-based maintenance schedules.",
+      "Wrote production deployment scripts handling environment validation, BOM stripping, domain placeholder replacement, database migrations (Prisma), health check polling, and graceful rollback via git stash.",
+      "Conducted a 97-issue full-stack audit across all 5 services covering security vulnerabilities, broken integrations, mocked payment/AI flows, unprotected admin routes, and cross-service communication gaps — delivered as a prioritized remediation report."
+    ],
+  },
+  {
     role: 'DevOps / Infrastructure Engineer',
     company: 'Australia based tech company — Remote',
     period: 'January 2026',
@@ -113,7 +127,7 @@ export default function ExperiencePage() {
         <h1 className="text-3xl sm:text-4xl font-extrabold">
           <span className="bg-gradient-to-r from-violet-600 via-fuchsia-600 to-rose-600 bg-clip-text text-transparent">Experience</span>
         </h1>
-        <p className="text-foreground/70 max-w-2xl dark:text-white">
+        <p className="text-foreground/70 max-w-2xl dark:text-white text-center mx-auto">
           A track record of delivering reliable, performant software and collaborating across teams.
         </p>
       </header>
